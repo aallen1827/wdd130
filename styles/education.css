@@ -1,0 +1,40 @@
+#top{
+    color: white;
+    text-align: center;
+}
+#top p{
+    color: white;
+}
+h1:hover{
+    color: black;
+}
+#top h2{
+    size: 8px;
+}
+#steps{
+    color: black;
+    margin: 20px;
+}
+#steps p{
+    margin-left: 40%;
+    text-align: left;
+}
+img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    color: black;
+    text-align: center;
+}
+#quote{
+    color: white;
+    size: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+*{
+    background-color: rgb(243, 156, 189);
+}
