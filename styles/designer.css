@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    text-align: center;
+}
+#main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+.circles img{
+    display: inline;
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(77, 77, 77);
+    margin: 30px;
+}
