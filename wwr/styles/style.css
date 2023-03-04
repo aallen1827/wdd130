@@ -192,6 +192,63 @@ nav{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #5f3538;
 }
+
+/* Rivers Page */
+
+#heading{
+    text-align: center;
+    color: #0d5c63;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.info h1{
+    text-align: center;
+    font-size: 30px;
+}
+.info p{
+    font-size: 20px;
+}
+.img img{
+    width: 500px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+#idaho{
+    display: flex;
+}
+#idaho h1{
+    margin-top: 0;
+    background-color: #090446;
+    color: #CC7178;
+    margin-left: -10px;
+    box-shadow: 10px 0 0 0 #090446;
+}
+#utah{
+    display: flex;
+}
+#utah h1{
+    margin-top: 30px;
+    background-color: #090446;
+    color: #CC7178;
+    margin-left: -10px;
+    box-shadow: 10px 0 0 0 #090446;
+}
+#arizona{
+    display: flex;
+    margin-bottom: -200px;
+}
+#arizona h1{
+    margin-top: 40px;
+    background-color: #090446;
+    color: #CC7178;
+    margin-left: -10px;
+    box-shadow: 10px 0 0 0 #090446;
+}
+#idaho p, #utah p, #arizona p{
+    background-color: #A3C3D9;
+    color: #090446;
+    box-shadow: 0 0 0 10px #A3C3D9;
+}
 @media screen and (max-width: 900px){
     #hero, .home-grid{
         display: block;

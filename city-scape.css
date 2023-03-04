@@ -1,0 +1,52 @@
+#image {
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    color: steelblue;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    grid-gap: 2px;
+}
+.one {
+    background-color: steelblue;
+}
+#grid h1, #grid h2 {
+    color: white;
+}
+#grid h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+#grid h2{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.two {
+    background-color: steelblue;
+}
+.three {
+    background-color: steelblue;
+}
