@@ -19,7 +19,6 @@ header{
     font-size: 40px;
 }
 nav a:hover{
-    background-color: #66a2ba;
     color: #61e786;
 }
 #logo-link img{
@@ -92,4 +91,84 @@ footer a:hover{
 #charles-picture{
     grid-column: 3/4;
     padding-left: 50px;
+}
+
+#orion{
+    position: relative;
+}
+.orion-image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5 ease;
+    backface-visibility: hidden;
+}
+.orion-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+#orion:hover .orion-overlay {
+    opacity: 1;
+}
+#orion:hover .orion-image{
+    opacity: 0.5;
+}
+.about-text {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#charles-picture{
+    position: relative;
+}
+.messier-image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5 ease;
+    backface-visibility: hidden;
+}
+.messier-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+#charles-picture:hover .messier-overlay {
+    opacity: 1;
+}
+#charles-picture:hover .messier-image{
+    opacity: 0.5;
+}
+.messier-text {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
