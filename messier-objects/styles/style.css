@@ -64,13 +64,13 @@ footer a:hover{
     margin-top: -100px;
     align-self: center;
 }
-#messier-object h2, #charles-messier h2{
+#messier-object h2, #charles-messier h2, #object-top h2, #objects h2{
     text-align: center;
     font-size: 28px;
     font-family: Mitr, sans-serif;
     color: #66a2ba;
 }
-#messier-object p, #charles-messier p{
+#messier-object p, #charles-messier p, #object-top p, #objects p{
     font-size: 15px;
     font-family: Merriweather, serif;
     color: #243a47;
@@ -171,4 +171,34 @@ footer a:hover{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+#top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -100px;
+}
+#andromeda{
+    grid-column: 1/2;
+    width: 600px;
+    align-self: center;
+}
+#object-top{
+    grid-column: 2/3;
+    align-self: center;
+}
+#pleiades{
+    grid-column: 3/4;
+    width: 50%;
+    justify-self: center;
+    margin-left: -200px;
+}
+#object-top h2{
+    text-align: center;
+}
+#objects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: -100px;
 }
