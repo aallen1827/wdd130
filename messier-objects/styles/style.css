@@ -58,10 +58,14 @@ footer a:hover{
 #what-is{
     display: flex;
     padding-left: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
 }
 #messier-object{
     padding-left: 50px;
-    margin-top: -100px;
+    margin-top: -50px;
     align-self: center;
 }
 #messier-object h2, #charles-messier h2, #object-top h2, #objects h2, #upper h2{
@@ -79,14 +83,17 @@ footer a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 100px;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
     padding-left: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #charles-messier{
     grid-column: 1/3;
     width: 100%;
     align-self: center;
-    margin-top: -100px;
+    margin-top: 0px;
 }
 #charles-picture{
     grid-column: 3/4;
@@ -101,7 +108,7 @@ footer a:hover{
     display: block;
     width: 100%;
     height: auto;
-    transition: .5 ease;
+    transition: ease;
     backface-visibility: hidden;
 }
 .orion-overlay {
@@ -141,7 +148,7 @@ footer a:hover{
     display: block;
     width: 100%;
     height: auto;
-    transition: .5 ease;
+    transition: ease;
     backface-visibility: hidden;
 }
 .messier-overlay {
@@ -212,11 +219,14 @@ footer a:hover{
     grid-template-columns: 1fr 1fr;
 }
 #telescope{
-    margin-left: 150px;
+    margin-left: 300px;
+}
+#telescope-pic{
+    width: 400px;
 }
 #text{
-    margin-right: 50px;
-    margin-top: 125px;
+    margin-right: 0px;
+    margin-top: 75px;
 }
 #table{
     text-align: center;
@@ -240,4 +250,58 @@ th{
 }
 tr{
     font-family: Merriweather, serif;
+}
+@media screen and (max-width: 900px){
+    nav, footer, #what-is, #messier-object, #who-is, #charles-messier, #charles-picture{
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    #logo-link img{
+        display: block;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display: block;
+    }
+    #who-is, #charles-messier, #charles-picture{
+        display: block;
+    }
+    #charles-picture{
+        padding-bottom: 100px;
+    }
+    #orion{
+        padding-bottom: 100px;
+    }
+    #top, #objects{
+        display: block;
+    }
+    #pleiades{
+        margin: 0 auto;
+    }
+    #objects{
+        padding-bottom: 100px;
+    }
+    #upper{
+        display: block;
+    }
+    #table{
+        padding-bottom: 150px;
+    }
+    #charles-picture, #orion, #andromeda, #pleiades, #telescope-pic{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #telescope{
+        margin: 0;
+    }
 }
